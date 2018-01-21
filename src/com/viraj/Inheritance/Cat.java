@@ -15,7 +15,7 @@ public class Cat extends Animal {
 	public String toString() {
 		// TODO Auto-generated method stub
 		return super.toString() + String.format(" | %s: %d | %s: %b", "Number of Legs ", numberOflegs, 
-				"Can hunt other animals", canHuntOtherAnimals) + evaluateAnimalValue();
+				"Can hunt other animals", canHuntOtherAnimals) + "Animal Value: " + evaluateAnimalValue();
 	}
 
 	    // Get CanHuntOtherAnimals

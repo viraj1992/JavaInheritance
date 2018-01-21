@@ -66,6 +66,8 @@ public class Animal extends Object{
 		int result = amountOfSpeed * amountOfPower;
 		return result;
 	}
+	
+	
 
 
 
