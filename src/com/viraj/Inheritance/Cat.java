@@ -18,22 +18,29 @@ public class Cat extends Animal {
 				"Can hunt other animals", canHuntOtherAnimals) + "Animal Value: " + evaluateAnimalValue();
 	}
 
-	    // Get CanHuntOtherAnimals
+	// Get CanHuntOtherAnimals
 
 	public boolean getCanHuntOtherAnimals() {
 		return canHuntOtherAnimals;
 	}
 
-	    // Set CanHuntOtherAnimals
+	// Set CanHuntOtherAnimals
 
 	public void setCanHuntOtherAnimals(boolean canHuntOtherAnimals) {
 		this.canHuntOtherAnimals = canHuntOtherAnimals;
 	}
 
-	    // Get NumberOfLegs
+	// Get NumberOfLegs
 
 	public int getNumberOflegs() {
 		return numberOflegs;
+	}
+
+	// Output some values to the screen
+	
+	public String outputSomeValuesToTheString() {
+		return "name :" + name + "color :" + color + "Amount of Speed :" + amountOfSpeed +
+				"Amount of Power :" + amountOfPower;
 	}
 
 

@@ -4,10 +4,10 @@ public class Animal extends Object{
 
 	// Instance Variables
 
-	private final String name;
-	private final String color;
-	private int amountOfSpeed;
-	private int amountOfPower;
+	protected final String name;
+	protected final String color;
+	protected int amountOfSpeed;
+	protected int amountOfPower;
 
 	public Animal(String name, String color, int amountOfSpeed, int amountOfPower) {
 		this.name = name;
