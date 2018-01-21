@@ -39,8 +39,8 @@ public class Cat extends Animal {
 	// Output some values to the screen
 	
 	public String outputSomeValuesToTheString() {
-		return "Name : " + name + " | Color : " + color + " | Amount of Speed : " + amountOfSpeed +
-				" | Amount of Power : " + amountOfPower;
+		return "Name : " + getName() + " | Color : " + getColor() + " | Amount of Speed : " + getAmountOfSpeed() +
+				" | Amount of Power : " + getAmountOfPower();
 	}
 
 
