@@ -11,6 +11,8 @@ public class Main {
 		Cat myCat = new Cat("Tom", "Golden", 55, 88, 4, true);
 		System.out.println(myCat.toString());
 		
+		System.out.println(myCat.outputSomeValuesToTheString());
+		
 		
 		
 
