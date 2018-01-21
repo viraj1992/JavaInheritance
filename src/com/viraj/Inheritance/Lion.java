@@ -8,5 +8,23 @@ public class Lion extends Cat {
 		super(name, color, amountOfSpeed, amountOfPower, numberOflegs, canHuntOtherAnimals);
 		this.isBrave = isBrave;
 	}
+	
+	// Set isBrave
+	
+	public void setIsBrave(boolean isBrave) {
+		this.isBrave = isBrave;
+	}
+	
+	// Get isBrave
+	
+	public boolean getIsBrave() {
+		return isBrave;
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString() + String.format(" | %s : %b","Is Brave", isBrave);
+	}
 
 }

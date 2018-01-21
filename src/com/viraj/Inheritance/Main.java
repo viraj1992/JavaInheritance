@@ -13,6 +13,10 @@ public class Main {
 		
 		System.out.println(myCat.outputSomeValuesToTheString());
 		
+		Lion myLion = new Lion("Lion", "Yellow", 88, 90, 4, true, true);
+		System.out.println(myLion.toString());
+		
+		
 		
 		
 
