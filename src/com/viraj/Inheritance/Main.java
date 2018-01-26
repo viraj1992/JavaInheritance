@@ -19,6 +19,9 @@ public class Main {
 		Leopard myLeopard = new Leopard("Leo", "Yellow", 88, 100, 4, true, "Sharp");
 		System.out.println(myLeopard.toString());
 		
+		Bird myBird = new Bird("Eagle", "Brown", 900, 700, 4);
+		System.out.println(myBird.toString());
+		
 		
 		
 		
